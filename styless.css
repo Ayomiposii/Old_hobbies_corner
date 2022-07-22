@@ -1,0 +1,34 @@
+body{
+    margin: 3px;
+    padding: 0;
+}
+.image {
+    width:1250px;
+}
+.image1{
+   width: 623px;
+   height: 300px;
+}
+.images {
+    width: 623px;
+    height: 200px;
+}
+@media (max-width:750px) {
+    img {
+    max-width: 100%;    
+}
+}
+.page_head {
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    font-family: 'PT Mono', sans-serif;
+    transition: 150ms all ease-in-out;
+}
+.page_head:hover {
+    color: white;
+    background: blue;
+    font-size: 50px;
+}
